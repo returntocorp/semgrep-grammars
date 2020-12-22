@@ -27,7 +27,7 @@ build-tree-sitter:
 	set -e; \
 	for pkg in $(TREE_SITTER_PACKAGES); do \
 	  echo "Install $$pkg"; \
-	  (cd $(PROJECT_ROOT) && npm install src/$$pkg); \
+	  (cd $(PROJECT_ROOT) && npm install $$pkg); \
 	done
 
 # Generate parsers for the semgrep-* packages.
