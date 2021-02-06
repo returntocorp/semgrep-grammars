@@ -1,3 +1,7 @@
+**This repository is now directly [included in
+  ocaml-tree-sitter](https://github.com/returntocorp/ocaml-tree-sitter/tree/master/lang/semgrep-grammars)
+  since 2021-02-05**
+
 # semgrep-grammars
 
 [![CircleCI](https://circleci.com/gh/returntocorp/semgrep-grammars.svg?style=svg)](https://circleci.com/gh/returntocorp/semgrep-grammars)
